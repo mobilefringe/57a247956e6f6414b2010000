@@ -1,0 +1,50 @@
+$layout_color: #79a185;
+$animation_color: #000;
+
+.main_btn, .back_to_home, .copyright_footer, .newsletter_btn, .flex-control-paging li a.flex-active, .store_nav a.active_store_nav:after, .store_nav a:hover:after, .store_initial, .details_header, .back_to_list, .back_to_list:hover, .back_to_list:focus, .mobile_menu_dd, #mm_page_content h2{
+    background: $layout_color;
+}
+
+.newsletter_control:focus{
+    border-color: $layout_color;
+}
+
+.view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
+    color: $layout_color;
+}
+
+.animated_btn:before{
+    background: $animation_color;
+}
+
+.stores_banner{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_directory.jpg;
+}
+
+.events_banner{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_events.jpg);
+}
+
+.dine_banner{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_dine.jpg);
+}
+
+.jobs_banner{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_jobs.jpg);
+}
+
+.location_banner{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_location.jpg);
+}
+
+.alamedacrossing-services{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_services.jpg);
+}
+
+.alamedacrossing-contact-us{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_contact.jpg);
+}
+
+.alamedacrossing-privacy-policy{
+    background-image: url(http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/jpeg/undefined/al_1920x150_banner_privacy.jpg);
+}
