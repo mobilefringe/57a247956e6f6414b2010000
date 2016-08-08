@@ -12,7 +12,7 @@
             <p class="side_link">
                2600 – 2700 Fifth Street, Alameda, CA 94501
             </p>
-            <a class="main_btn block animated_btn" href="https://www.google.com/maps?ll=33.828803,-118.087352&z=17&t=m&hl=en-US&gl=CA&mapclient=embed&daddr=7575+Carson+Blvd+Long+Beach,+CA+90808+USA@33.8288025,-118.0873521" target="_blank" >Driving Direction</a>
+            <a class="main_btn block animated_btn" href="https://www.google.com/maps/place/Alameda+Landing/@37.78618,-122.280425,14z/data=!4m5!3m4!1s0x0:0x7199e70348cb380b!8m2!3d37.7861803!4d-122.2804251?hl=en-US" target="_blank" >Driving Direction</a>
         </div>
         <div class="details_col_9" id="event_details_container">
             <div class="map_container">
