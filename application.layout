@@ -70,8 +70,8 @@
                 <li><a href="/dine">DINE</a></li>
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-services">SERVICES</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-contact-us">CONTACT</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/alamedacrossing-services">SERVICES</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/alamedacrossing-contact-us">CONTACT</a></li>
             </ul>
         </div>
         <div class="row">
@@ -108,8 +108,8 @@
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                            <li><a href="/pages/longbeach-services">SERVICES</a></li>
-                            <li><a href="/pages/longbeach-contact-us">CONTACT</a></li>
+                            <li><a href="/pages/alamedacrossing-services">SERVICES</a></li>
+                            <li><a href="/pages/alamedacrossing-contact-us">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
@@ -172,7 +172,7 @@
                2600 – 2700 Fifth Street, Alameda, CA 94501
             </p>
             <p class="footer_text">
-                <a href="tel:510-770-9798">510-770-9798</a> | <a href="/pages/longbeach-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
+                <a href="tel:510-770-9798">510-770-9798</a> | <a href="/pages/alamedacrossing-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
             </p>
          <a href="http://www.vestar.com/" target="_blank">
                 <img src="http://assets.codecloudapp.com/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt=""> </a>
@@ -197,7 +197,7 @@
                         2600 – 2700 Fifth Street, Alameda, CA 94501
                     </p>
                     <p class="footer_text">
-                <a href="tel:56293817225">562.938.1722</a> | <a href="/pages/longbeach-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
+                <a href="tel:56293817225">562.938.1722</a> | <a href="/pages/alamedacrossing-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
             </p>
                 </div>
             </div>
