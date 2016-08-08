@@ -18,6 +18,12 @@
             <li class="show_cat_stores" data-id="4336">Hamburger Restaurant</li>
             <li class="show_cat_stores" data-id="4339">Hawaiian Restaurant</li>
             <li class="show_cat_stores" data-id="4332">Ice Cream Shop</li>
+            <li class="show_cat_stores" data-id="4353">Indian Restaurant</li>
+            <li class="show_cat_stores" data-id="4355">Korean Japanese Restaurant</li>
+            <li class="show_cat_stores" data-id="4347">Japanese Restaurant</li>
+            <li class="show_cat_stores" data-id="4331">Mexican Restaurant</li>
+            <li class="show_cat_stores" data-id="4349">Pizza Restaurant</li>
+             <li class="show_cat_stores" data-id="4333">Restaurant</li>
            
         </ul>
     </div>
