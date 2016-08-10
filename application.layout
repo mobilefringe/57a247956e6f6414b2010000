@@ -126,17 +126,10 @@
             <div class="footer_col">
                 <h5 class="heading">SHOPPING CENTER HOURS</h5>
                 <img src="http://assets.codecloudapp.com/sites/57a247956e6f6414b2010000/image/png/1463686637000/clock.png" class="hours_clock" alt="hours clock">
-                <div class="hours_footer" id="hours_container">
-                    <script id="hours_template" type="x-tmpl-mustache/text">
-                        <p>
-                            {%raw%}
-                                {{day}} 
-                                <br />
-                                {{hour}}
-                            {%endraw%}
+                <p>
+                       
+                          Shopping hours may vary.  Please check specific stores hours for more details
                         </p>
-                    </script>
-                </div>
                 <div class="clearfix"></div>
                 <hr class="visible_phone mobile_separator" />
             </div>
