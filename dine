@@ -12,19 +12,8 @@
         </a>
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
-            <li class="show_cat_stores" data-id="4342">Chinese Restaurant</li>
-            <li class="show_cat_stores" data-id="4354">Frozen Yogurt Shop</li>
-            <li class="show_cat_stores" data-id="4344">Grocery Store</li>
-            <li class="show_cat_stores" data-id="4336">Hamburger Restaurant</li>
-            <li class="show_cat_stores" data-id="4339">Hawaiian Restaurant</li>
-            <li class="show_cat_stores" data-id="4332">Ice Cream Shop</li>
-            <li class="show_cat_stores" data-id="4353">Indian Restaurant</li>
-            <li class="show_cat_stores" data-id="4355">Korean Japanese Restaurant</li>
-            <li class="show_cat_stores" data-id="4347">Japanese Restaurant</li>
-            <li class="show_cat_stores" data-id="4331">Mexican Restaurant</li>
-            <li class="show_cat_stores" data-id="4349">Pizza Restaurant</li>
-             <li class="show_cat_stores" data-id="4333">Restaurant</li>
-             <li class="show_cat_stores" data-id="4334">Sandwich Shop</li>
+            <li class="show_cat_stores" data-id="4333">Restaurant</li>
+           
            
         </ul>
     </div>
@@ -47,19 +36,7 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                  <li class="show_cat_stores" data-id="4342">Chinese Restaurant</li>
-            <li class="show_cat_stores" data-id="4354">Frozen Yogurt Shop</li>
-            <li class="show_cat_stores" data-id="4344">Grocery Store</li>
-            <li class="show_cat_stores" data-id="4336">Hamburger Restaurant</li>
-            <li class="show_cat_stores" data-id="4339">Hawaiian Restaurant</li>
-            <li class="show_cat_stores" data-id="4332">Ice Cream Shop</li>
-            <li class="show_cat_stores" data-id="4353">Indian Restaurant</li>
-            <li class="show_cat_stores" data-id="4355">Korean Japanese Restaurant</li>
-            <li class="show_cat_stores" data-id="4347">Japanese Restaurant</li>
-            <li class="show_cat_stores" data-id="4331">Mexican Restaurant</li>
-            <li class="show_cat_stores" data-id="4349">Pizza Restaurant</li>
-             <li class="show_cat_stores" data-id="4333">Restaurant</li>
-             <li class="show_cat_stores" data-id="4334">Sandwich Shop</li>
+               <li class="show_cat_stores" data-id="4333">Restaurant</li>
                 </ul>
             </div>
         </div>
@@ -110,33 +87,12 @@
     
     function renderPage(){
         var stores = [];
-        var s1 = getStoresListByCategoryID(4342)
-        var s2 = getStoresListByCategoryID(4354)
-        var s3 = getStoresListByCategoryID(4344)
-         var s4 = getStoresListByCategoryID(4336)
-        var s5 = getStoresListByCategoryID(4339)
-        var s6 = getStoresListByCategoryID(4332)
-         var s7 = getStoresListByCategoryID(4353)
-        var s8 = getStoresListByCategoryID(4355)
-        var s9 = getStoresListByCategoryID(4347)
-         var s10 = getStoresListByCategoryID(4331)
-         var s11 = getStoresListByCategoryID(4349)
-        var s12 = getStoresListByCategoryID(4333)
-        var s13 = getStoresListByCategoryID(4334)
+        var s1 = getStoresListByCategoryID(4333)
+  
+      
        
         stores = stores.concat(s1)
-        stores = stores.concat(s2)
-        stores = stores.concat(s3)
-        stores = stores.concat(s4)
-        stores = stores.concat(s5)
-        stores = stores.concat(s6)
-        stores = stores.concat(s7)
-        stores = stores.concat(s8)
-        stores = stores.concat(s9)
-        stores = stores.concat(s10)
-        stores = stores.concat(s11)
-        stores = stores.concat(s12)
-         stores = stores.concat(s13)
+     
         
         var newarr = [];
         var unique = {};
