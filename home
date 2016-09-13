@@ -1,3 +1,11 @@
+<div class="popup_home hidden_now" id="popup_container">
+    <script id="popup_template" type="x-tmpl-mustache/text">
+        <a href="{{photo_link}}" {{css}} onclick="{{no_link}}">
+            <img id="popup_img" src="{{image_url_abs}}" />
+        </a>
+        <i class="fa fa-remove close_popup"></i>
+    </script>
+</div>
 <div class="flexslider">
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
@@ -30,11 +38,25 @@
     function renderPage(){
         var banners = getBanners();
         var feature_items = getFeatureList();
+        var popup = getPopups()[0];
         renderBanner('#banner_template','#home_banner',banners);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
         $('.flexslider').flexslider({
             animation: "fade",
         });
         show_content();
+        if(popup != undefined && $.cookie("popup_viewed") != "true"){
+            renderPopUp("#popup_container", "#popup_template", popup)
+            $.cookie("popup_viewed", "true");
+            $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+            $('.popup_home').show()
+        }
+        $('.close_popup, .custom_backdrop').click(function(){
+            $(".modal-backdrop").remove();
+	        $(".popup_home").remove();
+        })
     }
+    
+    
+    
 </script>
