@@ -5,27 +5,27 @@ $animation_color: #000;
 
 @font-face { 
     font-family: Avenir-Heavy; 
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Heavy.ttf') format('truetype');
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Heavy.woff') format('woff');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Heavy.ttf') format('truetype');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Heavy.woff') format('woff');
 }
 
 @font-face { 
     font-family: Avenir-Book; 
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Book.ttf') format('truetype');
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Book.woff') format('woff');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Book.ttf') format('truetype');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Book.woff') format('woff');
 }
 
 
 @font-face { 
     font-family: Avenir-Medium; 
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Medium.ttf') format('truetype');
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Medium.woff') format('woff');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/font/truetype/1462834422000/Avenir-Medium.ttf') format('truetype');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000//1463611310000/Avenir-Medium.woff') format('woff');
 }
 
 @font-face{
     font-family: Georgia-Italic;
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/font/truetype/1461457460000/Georgia Italic.ttf') format('truetype');
-    src: url('//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000//1463611626000/Georgia-Italic.woff') format('woff');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/font/truetype/1461457460000/Georgia Italic.ttf') format('truetype');
+    src: url('//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000//1463611626000/Georgia-Italic.woff') format('woff');
 }
 
 
@@ -51,44 +51,44 @@ body{
 }
 
 #social_facebook{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1462809741000/facebook.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1462809741000/facebook.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463672134000/facebook_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463672134000/facebook_hover.png);
     }
 }
 
 #social_twitter{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1462809758000/twitter.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1462809758000/twitter.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463672141000/twitter_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463672141000/twitter_hover.png);
     }
 }
 
 #social_pinterest{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1462809752000/pinterest.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1462809752000/pinterest.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463672149000/pinterest_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463672149000/pinterest_hover.png);
     }
 }
 
 #social_insta{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1464100787000/instagram.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1464100787000/instagram.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1464100796000/instagram_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1464100796000/instagram_hover.png);
     }
 }
 
 #social_yt{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1462809881000/you_tube.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1462809881000/you_tube.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463672163000/you_tube_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463672163000/you_tube_hover.png);
     }
 }
 
 #social_gplus{
-    background-image: url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1462809889000/google_plus.png);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1462809889000/google_plus.png);
     &:hover{
-        background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463672173000/google_plus_hover.png);
+        background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463672173000/google_plus_hover.png);
     }
 }
 
@@ -556,7 +556,7 @@ body{
 //store list
 
 .header_banner{
-    background-image:url(//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/png/1463150657000/sample_banner1920x450.png);
+    background-image:url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/png/1463150657000/sample_banner1920x450.png);
     background-size:cover;
     background-position:50%;
 }
