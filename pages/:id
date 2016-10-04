@@ -7,7 +7,7 @@
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
            
-            <img id="side_image" src="//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_events.jpg" />
+            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_events.jpg" />
            
         </div>
         <div class="details_col_9">
@@ -27,13 +27,13 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
          if (slug == "alamedacrossing-privacy-policy"){
-           $('#side_image').attr('src', "//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_privacy.jpg")
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_privacy.jpg")
         }
        if (slug == "alamedacrossing-services"){
-           $('#side_image').attr('src', "//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_services.jpg")
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_services.jpg")
         }
         if (slug == "alamedacrossing-contact-us"){
-           $('#side_image').attr('src', "//assets.codecloudapp.com/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_contact.jpg")
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_440x1200_side_contact.jpg")
         }
         
         prefix = get_prefix();
