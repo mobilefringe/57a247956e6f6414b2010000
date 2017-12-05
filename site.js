@@ -4,6 +4,3 @@ var site_json = {
                     "time_zone" : "T08:00:00Z",
                     "social_feed" : "//alamedacrossing.mallmaverick.com/api/v2/alamedacrossing/social.json"
                 }
-                
-var current_year = moment().year();
-$("#current_year").text(current_year);
