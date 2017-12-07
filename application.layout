@@ -198,7 +198,7 @@
     </section>
     <script>
         $( document ).ready(function() {
-            current_year = moment().year();
+            var current_year = moment().year();
             console.log(current_year)
             $("#current_year").text(current_year);
         });
