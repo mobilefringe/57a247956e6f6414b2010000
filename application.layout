@@ -60,7 +60,7 @@
         
         var current_year = moment().year();
         console.log(current_year);
-        $("#current_year").append(current_year);
+        $("#current_year").prepend(current_year);
     </script>
 </head>
 
