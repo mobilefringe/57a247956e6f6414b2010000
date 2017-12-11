@@ -198,6 +198,8 @@
     </section>
     <script>
         var current_year = moment().year();
+        var span = document.getElementById("#current_year");
+        console.log()
         $("#current_year").text("Hello!");
     </script>
 </body>
