@@ -45,9 +45,7 @@
             animation: "fade",
         });
         show_content();
-        
-        var current_year = moment().year();
-$("#current_year").text(current_year);
+
         if(popup != undefined && $.cookie("popup_viewed") != "true"){
             renderPopUp("#popup_container", "#popup_template", popup)
             $.cookie("popup_viewed", "true");
