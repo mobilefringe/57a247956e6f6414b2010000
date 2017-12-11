@@ -60,7 +60,7 @@
         
         var current_year = moment().year();
         console.log(current_year);
-        $(".current_year").text(current_year);
+        $("#current_year").append(current_year);
     </script>
 </head>
 
@@ -180,7 +180,7 @@
         <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
-                    © Copyright <span class="current_year"></span> Alameda Landing
+                    © Copyright <span id="current_year"></span> Alameda Landing
                 </p>
                 <p class="footer_text">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
