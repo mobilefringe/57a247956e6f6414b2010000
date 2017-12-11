@@ -57,6 +57,9 @@
     <!-- Site data -->
     <script>
         setEndPoint('//alamedacrossing.mallmaverick.com/api/v4/alamedacrossing/all.json');
+        
+        var current_year = moment().year();
+        $("#current_year").text(current_year);
     </script>
 </head>
 
