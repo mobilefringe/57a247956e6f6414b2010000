@@ -57,7 +57,4 @@
 	        $(".popup_home").remove();
         })
     }
-    
-    
-    
 </script>
