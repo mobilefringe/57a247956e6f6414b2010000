@@ -176,8 +176,9 @@
         <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
-                    © Copyright <span id="current_year"></span> Alameda Landing
+                    © Copyright  Alameda Landing
                 </p>
+                <span id="current_year"></span>
                 <p class="footer_text">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
                 </p>
