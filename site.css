@@ -1,0 +1,118 @@
+$layout_color: #6ea4ac;
+$animation_color: #a1975f;
+
+.main_btn, .back_to_home, .copyright_footer, .newsletter_btn, .flex-control-paging li a.flex-active, .store_nav a.active_store_nav:after, .store_nav a:hover:after, .store_initial, .details_header, .back_to_list, .back_to_list:hover, .back_to_list:focus, .mobile_menu_dd, #mm_page_content h2{
+    background: $layout_color;
+}
+.mark {
+    background-color: transparent;
+}
+.newsletter_control:focus{
+    border-color: $layout_color;
+}
+
+.view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
+    color: $layout_color;
+}
+
+.hours_clock{
+    width:40px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:5px;
+}
+.animated_btn:before{
+    background: $animation_color;
+}
+
+.stores_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_directory.jpg);
+}
+
+.events_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_events.jpg);
+}
+
+.dine_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_dine.jpg);
+}
+
+.jobs_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_jobs.jpg);
+}
+
+.location_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_location.jpg);
+}
+
+.alamedacrossing-services{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_services.jpg);
+}
+
+.alamedacrossing-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_contact.jpg);
+}
+
+.alamedacrossing-privacy-policy{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b41c6e6f645d03af0000/image/jpeg/undefined/al_1920x150_banner_privacy.jpg);
+}
+
+
+/**** DINE STYLING *****/
+#dining_container {
+    .store_nav a:after {
+        min-width: 90px;
+    }
+    .store_container {
+        position:relative;
+        .store_logo_container {
+            overflow: hidden;
+            border: 1px solid #D8D8D8;
+            .store_list_logo {
+                max-width: 100%;
+                max-height:100%;
+                
+                transition: all ease 0.3s;
+                &:hover {
+                    transform:scale(1.1);
+                }
+            }
+        }
+        .store_data_container {
+            background: #F2F2F2;
+            border: 1px solid #D8D8D8;
+            border-top: none;
+            padding-top: 15px;
+            height: 150px;
+            position:relative;
+            .store_list_name {
+                font-size: 20px;
+                line-height: normal;
+            }
+            .today_store_hours {
+                margin: 0 20px;
+                font-size: 14px;
+                position: absolute;
+                bottom: 10px;
+            }
+            .today_store_hours.red{
+                color: red;
+            }
+        }
+        .new_store_tag {
+            position: absolute;
+            width: 60px;
+            right: 0px;
+            top: -8px;
+            z-index: 3;
+        }
+    }
+    #current_category {
+        font-family: Avenir-Medium;
+        font-size: 18px;
+        color: #4B4B4B;
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+}
