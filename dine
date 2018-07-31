@@ -177,16 +177,18 @@
                 var hours = getHoursForStoreSlug(val.slug).sortBy(function(o){ return o.day_of_week });
                 today_day_of_week = moment().day();
                 var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; })[0];
-                var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
-                var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
-                if (todays_hour.is_closed == true){
-                    val.hour_string = "Closed Today"
-                    $('#today_store_hour_'+val.id).addClass("red");
-                    console.log("hello" ,$('#today_store_hour_'+val.id));
-                } else {
-                    val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
-                    $('#today_store_hour_'+val.id).removeClass("red");
-                } 
+                if( todays_hour.is_closed !== null && todays_hour.is_closed !== undefined) {
+                    var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
+                    if (todays_hour.is_closed == true){
+                        val.hour_string = "Closed Today"
+                        $('#today_store_hour_'+val.id).addClass("red");
+                        console.log("hello" ,$('#today_store_hour_'+val.id));
+                    } else {
+                        val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                        $('#today_store_hour_'+val.id).removeClass("red");
+                    } 
+                }
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
