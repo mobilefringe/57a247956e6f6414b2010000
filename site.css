@@ -122,6 +122,7 @@ $animation_color: #a1975f;
         margin: auto;
     }
 }
+
 @media (max-width: 768px) {
     #dining_container .cats_row {
          display: block;
