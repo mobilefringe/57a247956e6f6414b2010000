@@ -38,7 +38,7 @@
                             <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="store_list_logo" />
                         </div>
                         <div class="store_data_container">
-                            <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            <p class="store_list_name"><a href="/stores/{{slug}}">{{short_name}}</a></p>
                             <p class="today_store_hours" id="today_store_hour_{{id}}">{{hour_string}}</p>
                         </div>
                     </div>
@@ -164,6 +164,12 @@
                     val.alt_store_front_url = getImageURL(val.store_front_url);    
                 }
             }
+            if (val.name.length > 30){
+               val.short_name =  val.name.substring(0, 30) + "..."
+            } else {
+                val.short_name =  val.name
+            }
+            
             if (val.total_published_promos > 0){
                 val.promo_exist = "display:inline"
             }
@@ -177,7 +183,7 @@
                 var hours = getHoursForStoreSlug(val.slug).sortBy(function(o){ return o.day_of_week });
                 today_day_of_week = moment().day();
                 var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; })[0];
-                if( todays_hour.is_closed !== null && todays_hour.is_closed !== undefined) {
+                if(todays_hour !== null && todays_hour !== undefined) {
                     var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
                     var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
                     if (todays_hour.is_closed == true){
