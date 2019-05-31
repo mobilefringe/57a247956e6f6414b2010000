@@ -75,7 +75,7 @@
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/jobs">JOBS</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/alamedacrossing-contact-us">CONTACT</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/alamedacrossing-pop-up-specialty">POP UP SPECIALTY LEASING</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/alamedacrossing-pop-up-specialty-leasing">SPECIALTY LEASING</a></li>
             </ul>
         </div>
         <div class="row">
@@ -114,7 +114,7 @@
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
                             <li><a href="/jobs">JOBS</a></li>
                             <li><a href="/pages/alamedacrossing-contact-us">CONTACT</a></li>
-                            <li><a href="/pages/alamedacrossing-pop-up-specialty">SPECIALTY LEASING</a></li>
+                            <li><a href="/pages/alamedacrossing-pop-up-specialty-leasing">SPECIALTY LEASING</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
